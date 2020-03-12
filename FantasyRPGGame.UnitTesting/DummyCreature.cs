@@ -7,9 +7,6 @@ namespace FantasyRPGGame.UnitTesting
 {
     public class DummyCreature : FantasyRPGGame.Model.Creature
     {
-        public override int Type { get => base.Type; set => base.Type = value; }
-        public override int Strength { get => base.Strength; set => base.Strength = value; }
-        public override int HitPoints { get => base.HitPoints; set => base.HitPoints = value; }
 
         public override string Race => base.Race;
 

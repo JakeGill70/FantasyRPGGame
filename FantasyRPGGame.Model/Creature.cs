@@ -9,7 +9,6 @@ namespace FantasyRPGGame.Model
         /// <summary>
         /// 0 = Human, 1 = Cyberdemon, 2 = Balrog, 3 = Elf
         /// </summary>
-        public virtual int Type { get; set; }
         public virtual int Strength { get; set; }
         public virtual int HitPoints { get; set; }
         public virtual string Race { get; }
@@ -17,7 +16,6 @@ namespace FantasyRPGGame.Model
         public Creature(IRandom random)
         {
             _random = random;
-            Type = 0; // Human
             Strength = 50;
             HitPoints = 100;
         }

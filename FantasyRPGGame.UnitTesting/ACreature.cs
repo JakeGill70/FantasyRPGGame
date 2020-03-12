@@ -11,6 +11,7 @@ namespace FantasyRPGGame.UnitTesting
     class ACreature
     {
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToChangeStrength()
         {
             // Arrange
@@ -29,6 +30,7 @@ namespace FantasyRPGGame.UnitTesting
         }
 
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToChangeHitPoints()
         {
             // Arrange
@@ -47,6 +49,7 @@ namespace FantasyRPGGame.UnitTesting
         }
 
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToCalculateDamage()
         {
             // Arrange
@@ -64,6 +67,7 @@ namespace FantasyRPGGame.UnitTesting
         }
 
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToTakeDamage()
         {
             // Arrange
@@ -84,6 +88,7 @@ namespace FantasyRPGGame.UnitTesting
         }
 
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToTakeDamageMultipleTimes()
         {
             // Arrange
@@ -106,6 +111,7 @@ namespace FantasyRPGGame.UnitTesting
         }
 
         [Test]
+        [Category("Milestone 1")]
         public void ShouldBeAbleToAttackAnotherCreature()
         {
             // Arrange
