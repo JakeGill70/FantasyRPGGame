@@ -80,7 +80,7 @@ namespace FantasyRPGGame.UnitTesting
             sut.Strength = 0;
 
             // Action
-            double cntDblDmg = 0;
+            int cntDblDmg = 0;
             for (int i = 0; i < 10000; i++)
             {
                 int dmg = sut.CalculateDamage();
