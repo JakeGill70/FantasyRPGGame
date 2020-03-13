@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FantasyRPGGame.Model
+﻿namespace FantasyRPGGame.Model
 {
     public abstract class Creature
     {

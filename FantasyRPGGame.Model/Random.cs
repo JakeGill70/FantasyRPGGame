@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FantasyRPGGame.Model
+﻿namespace FantasyRPGGame.Model
 {
     public class Random : IRandom
     {
         private System.Random _random;
 
-        public Random() {
+        public Random()
+        {
             _random = new System.Random();
         }
 

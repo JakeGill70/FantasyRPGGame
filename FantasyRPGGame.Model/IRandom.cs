@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FantasyRPGGame.Model
+﻿namespace FantasyRPGGame.Model
 {
     public interface IRandom
     {

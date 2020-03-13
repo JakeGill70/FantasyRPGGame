@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FantasyRPGGame.Model
+﻿namespace FantasyRPGGame.Model
 {
     public abstract class Demon : Creature
     {
@@ -15,7 +11,8 @@ namespace FantasyRPGGame.Model
         public override int CalculateDamage()
         {
             int dmg = base.CalculateDamage();
-            if (_random.Next(100) < 25) {
+            if (_random.Next(100) < 25)
+            {
                 dmg += 10;
             }
             return dmg;
