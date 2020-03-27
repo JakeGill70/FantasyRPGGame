@@ -38,7 +38,7 @@ namespace FantasyRPGGame.Model
                 _creatures.RemoveAt(index);
                 wasSuccessfullyRemoved = true;
             }
-            catch (IndexOutOfRangeException e) {
+            catch (ArgumentOutOfRangeException e) {
                 wasSuccessfullyRemoved = false;
             }
             return wasSuccessfullyRemoved;
